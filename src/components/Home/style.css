@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+#home img{
+   height: 300px;     
+   object-fit: cover;  
+   border: 2px solid rgb(1, 66, 157);
+   border-radius: 3px;
+}
+#home p{
+     font-family: 'Nunito', sans-serif;
+     font-weight: bold;
+}

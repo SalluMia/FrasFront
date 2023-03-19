@@ -1,0 +1,17 @@
+nav{
+   background: rgb(1, 66, 157);
+   padding: 50px 0px;
+   border-bottom-left-radius: 3px; 
+   border-bottom-right-radius: 3px; 
+   height: 70vh;
+}
+nav .nav-link{
+     color: white !important;
+     background: rgb(12, 76, 166);
+     margin-top: 5px;
+     padding: 10px 30px;
+}
+.nav-link:hover{
+    background: orangered;
+  
+}
