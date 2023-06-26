@@ -1,0 +1,72 @@
+#details{
+     margin-top: 60px !important;
+     border-radius: 5px !important;
+}
+#details .row{
+     border-radius: 5px;
+     border: 1px solid rgb(222, 220, 220);
+}
+#details .card{
+     margin-bottom: 10px;
+     border: 1px solid rgb(225, 225, 225);
+
+}
+.card-header {
+     height: 50px;
+}
+.card-body{
+    height: 180px;
+}
+.card-body b{
+    color: '#fb5607 !important';
+}
+#images{
+        width: 25px !important;
+        cursor: pointer;
+}
+#marker-data{
+   background: white !important;
+   position: relative;
+  padding:  7px;
+  box-sizing: border-box;
+  width: 150px;
+  cursor: pointer;
+  margin-top: 40px;
+  border-radius: 5px;
+  border: 3px solid #e5a1027a;
+ 
+}
+#marker-data:before {
+     content: "";
+     position: absolute;
+     display: block;
+     top: 86%;
+     left: 40px;
+     height: 20px;
+     width: 20px;
+     border-right: 3px solid #e5a1027a;
+     border-bottom: 3px solid #e5a1027a;
+     background: rgb(255, 255, 255);
+     /* border-radius: 2px; */
+     border-top-right-radius: 0px;
+     border-top-left-radius: 2px;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 2px;
+     box-sizing: border-box;
+     transform: rotate(45deg);
+     /* z-index: -99999; */
+     /* clip-path: polygon(0% 105%, 0% 0%, 105% 0%, 105% 105%, 43px 105%, 43px 80%, 21px 80%, 21px 105%); */
+   }
+ 
+
+
+#marker-data h4{
+     font-size: 12px;
+     padding:0 !important;
+     margin: 0 !important;
+}
+#marker-data p{
+     font-size: 11px;
+     padding:0 !important;
+     margin: 0 !important;
+}

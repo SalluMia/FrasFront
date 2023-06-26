@@ -1,0 +1,50 @@
+#inputs{
+     /* background: url('../images/input.jpg'); */
+     background-position: center;
+     background-size: cover;
+     padding: 20px;
+     filter: grayscale(50%);
+}
+#inputs form{
+      background: #e5a10213;
+      padding: 10px;
+      border-radius: 5px;
+      width:60%;
+      margin: auto;
+      margin-top: 20px;
+}
+#inputs hr{
+     width: 200px;
+     margin: auto;
+     margin-top: 20px;
+}
+form input{
+     border-radius: 2px !important;
+}
+
+form label{
+     font-weight: bold !important;
+}
+#emergency-pic{
+       width: 100%;
+       height: 400px;
+       object-fit: cover;
+       border-radius: 5px;
+}
+#Del{
+    border-radius: 0 !important;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 9 !important;
+}
+#Edit{
+     border-radius: 0 !important;
+     font-size: 13px;
+     font-weight: bold;
+    padding: 9 !important;
+
+}
+.slider{
+      height: 300px;
+      overflow: scroll;
+}

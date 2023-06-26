@@ -1,14 +1,17 @@
 import React from 'react'
 import flood from '../images/flood.jpg'
 import style from './style.css'
+import Slider from '../Carousel/Slider'
 export default function Home() {
   
 
   return (
     <div>
+       <Slider/>
            <div className="container bg-light jumbotron p-4 ">
-              <div className="col-sm-12" id='home'>
-                   <img src={flood} className='d-block w-100' alt="" />
+              <div className="col-sm-12 m-0" id='home'>
+                  
+                   {/* <img src={flood} className='d-block w-100' alt="" /> */}
               </div>
                   <div className="col-sm-12 mt-3">
                     <p>
@@ -25,7 +28,7 @@ export default function Home() {
                   Our system will provide reports and graphs on the number of homeless people and the required items, such as clothes and food, to help those in need. Through our website, people from other areas can help by providing the necessary items to support the flood victims. Our system aims to provide an effective solution to mitigate the impact of floods and help people in need.
 
                      </p>
-                     <button className='btn btn-info'>Read More</button>
+                     <button className='btn btn-info' id='readmore'>Read More <i class="fa-solid fa-angles-right"></i></button>
                   </div>
                  
 

@@ -3,7 +3,7 @@ nav{
    padding: 50px 0px;
    border-bottom-left-radius: 3px; 
    border-bottom-right-radius: 3px; 
-   height: 70vh;
+   height: 75vh;
 }
 nav .nav-link{
      color: white !important;
@@ -14,4 +14,11 @@ nav .nav-link{
 .nav-link:hover{
     background: orangered;
   
+}
+#logout{
+     border-radius: 0 !important;
+     font-weight: 700;
+     border: 1px solid white;
+     padding: 5px 30px;
+     font-size: 15px;
 }

@@ -1,0 +1,28 @@
+.table-head{
+    background: rgb(1, 66, 157);
+    color: white;
+    margin-bottom: 5px !important;
+}
+#done{
+     border-radius: 0% !important;
+     font-size: 12px;
+     font-weight: bold;
+     background: rgb(245, 114, 66);
+     color:white;
+}
+.strike {
+    text-decoration: line-through;
+  }
+  .scroller{
+     height: 480px;
+     overflow: scroll;
+  }
+
+  #selections{
+     font-weight: bold !important;
+     background: rgb(241, 120, 75) !important;
+     color:white;
+     text-align: center !important;
+     border-radius: 0 !important;
+     font-size: 13px !important;
+  }
